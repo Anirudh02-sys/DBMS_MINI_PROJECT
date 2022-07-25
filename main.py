@@ -125,16 +125,11 @@ button = Button(root, text="Register", bg='White', fg='Black',
                 command=register_open)
 button.place(x=360, y=200, width=100, height=35)
 
-member_frame = LabelFrame(root, text="Team Members", width=30)
+member_frame = LabelFrame(root, text="Made By", width=30)
 member_frame.pack(expand="yes", padx=30)
 
 member_1 = Label(member_frame, text="Anirudh K")
 member_1.grid(row=0, column=1, padx=10, pady=10)
 
-member_2 = Label(member_frame, text="Antony R")
-member_2.grid(row=0, column=2, padx=10, pady=10)
-
-member_3 = Label(member_frame, text="Aravind Allagapan")
-member_3.grid(row=0, column=3, padx=10, pady=10)
 
 root.mainloop()
