@@ -1,0 +1,92 @@
+insert into Login values('Abdur_2030','#ce521',Null);
+insert into Login values('Abijith_2080','#code547201',Null);
+insert into Login values('Anush_8080','#ce5472010',Null);
+insert into Login values('Akshay_48080','#co5472020',Null);
+insert into Login values('Prajeeth_48080','#code5442020',Null);
+insert into Login values('Prem_48080','#code54425',Null);
+insert into Login values('Dhanush_48080','#co@54426409',Null);
+insert into Login values('Vetri_4842080','#code5649',Null);
+insert into Login values('Gokul_4842080','#code56445699',Null);
+insert into Login values('Prithvi_48420','#code56445639',Null);
+insert into Login values('Admin','123456789',1);
+
+insert into user values(10001,'Abdur_2030');
+insert into user values(10002,'Abijith_2080');
+insert into user values(10003,'Anush_8080');
+insert into user values(10004,'Akshay_48080');
+insert into user values(10005,'Prajeeth_48080');
+insert into user values(10006,'Prem_48080');
+insert into user values(10007,'Dhanush_48080');
+insert into user values(10008,'Vetri_4842080');
+insert into user values(10009,'Gokul_4842080');
+insert into user values(10010,'Prithvi_48420');
+
+insert into agency values(1,'BMW');
+insert into agency values(2,'Ford');
+insert into agency values(3,'Maurti');
+insert into agency values(4,'Toyota');
+
+insert into user_contact values(9872456789,10001);
+insert into user_contact values(9872456781,10002);
+insert into user_contact values(9872456782,10003);
+insert into user_contact values(9872456783,10004);
+insert into user_contact values(9872456784,10005);
+insert into user_contact values(9872456785,10006);
+insert into user_contact values(9872456786,10007);
+insert into user_contact values(9872456787,10008);
+insert into user_contact values(9872456788,10009);
+insert into user_contact values(9872456723,10010);
+
+insert into Rental_Type values(30001,2000,12);
+insert into Rental_Type values(30002,3000,112);
+insert into Rental_Type values(30003,4000,172);
+insert into Rental_Type values(30004,5000,182);
+insert into Rental_Type values(30005,6000,200);
+insert into Rental_Type values(30006,7000,250);
+insert into Rental_Type values(30007,8000,302);
+
+insert into Car values(40001,'Suzuki_124',3,30001);
+insert into Car values(40002,'BMW motorrad',1,30001);
+insert into Car values(40003,'Ford Endeavour',2,30002);
+insert into Car values(40004,'Suzuki XL6',3,30003);
+insert into Car values(40005,'Toyota Eeco',4,30004);
+insert into Car values(40006,'Ford EcoSport',2,30001);
+insert into Car values(40007,'Suzuki Ciaz',3,30006);
+insert into Car values(40008,'BMW MINI',1,30007);
+insert into Car values(40009,'Ford Freestyle',2,30001);
+insert into Car values(40010,'BMW XFR',1,30001);
+insert into Car values(40011,'Suzuki ALto',3,30002);
+insert into Car values(40012,'Toyota Aspire',4,30003);
+
+insert into Car_details values(50001,40001,4,'Yes','Red','Yes');
+insert into Car_details values(50002,40002,4,'Yes','Red','Yes');
+insert into Car_details values(50003,40003,4,'No','Red','Yes');
+insert into Car_details values(50004,40004,4,'Yes','Yellow','Yes');
+insert into Car_details values(50005,40005,2,'Yes','Orange','No');
+insert into Car_details values(50006,40006,2,'No','Red','No');
+insert into Car_details values(50007,40007,4,'No','Pink','No');
+insert into Car_details values(50008,40008,4,'Yes','Green','No');
+insert into Car_details values(50009,40009,4,'Yes','Red','No');
+insert into Car_details values(50010,40010,4,'No','Red','No');
+insert into Car_details values(50011,40011,4,'No','Red','No');
+insert into Car_details values(50012,40012,4,'Yes','Red','No');
+insert into Car_details values(50013,40008,4,'Yes','Green','No');
+
+insert into User_details values(10001,'Abdur','A','12/30','K_nagar','Guduvancherry','19/01/1998');
+insert into User_details values(10002,'Abhijith','A','14/20','T_nagar','Kelambakkam','03/05/2000');
+insert into User_details values(10003,'Anush','A','12/32','G_nagar','Guduvancherry','19/01/1998');
+insert into User_details values(10004,'Akshay','A','14/53','P_nagar','Kalavakkam','06/07/2003');
+insert into User_details values(10005,'Prajeeth','P','14/34','L_nagar','Guduvancherry','06/07/2003');
+insert into User_details values(10006,'Prem','A','12/34','N_nagar','Guduvancherry','19/10/1998');
+insert into User_details values(10007,'Dhanush','A','12/98','M_nagar','Kalavakkam','06/07/2003');
+insert into User_details values(10008,'Vetrivel','V','12/43','O_nagar','Guduvancherry','19/01/1998');
+insert into User_details values(10009,'Gokul','G','12/34','E_nagar','Guduvancherry','03/05/2002');
+insert into User_details values(10010,'Prithivi','A','12/43','Q_nagar','Guduvancherry','29/10/1998');
+
+
+
+insert into rental values(90001,50001,10001,'13:12','12/06/2018',25,2012);
+insert into rental values(90002,50002,10002,'12:45','12/07/2018',30,2072);
+insert into rental values(90003,50003,10003,'12:45','13/08/2019',23,3000);
+insert into rental values(90004,50004,10004,'12:45','14/07/2019',54,9160);
+
